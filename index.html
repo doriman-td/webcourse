@@ -10,10 +10,21 @@
     <link rel="stylesheet" href="src/css/reset.css">
     <link rel="stylesheet" href="src/css/style.css">
 </head>
-
 <body>
-    <header>
-        <nav>
+          <div class = "preloader">
+              <div class="sk-folding-cube">
+  <div class="sk-cube1 sk-cube"></div>
+  <div class="sk-cube2 sk-cube"></div>
+  <div class="sk-cube4 sk-cube"></div>
+  <div class="sk-cube3 sk-cube"></div>
+</div>
+         <script>
+             window.addEventListener('load', () => { /* Страница загружена, включая все ресурсы */
+  const preloader = document.querySelector('.preloader') /* находим блок Preloader */
+  preloader.classList.add('preloader_hidden') /* добавляем ему класс для скрытия */
+})
+              </script>
+          </div>
             <div class="logo">Андрей Шуть</div> 
             <div class="menu"> <ul>
                 <li><a href="#">ОБО МНЕ</a> </li>
