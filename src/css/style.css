@@ -1,11 +1,8 @@
 
-
 body{
     font-family: Arial, sans-serif;
     
 }
-
-
 
 nav{
     width: 100%;
@@ -13,16 +10,11 @@ nav{
     background: #344051;
 }
 
-
 .main{
     width: 100%;
     height: 100%;
     background: url(../images/icons/man.png) 90% 100%/auto 85% no-repeat, url(../images/icons/bg.jpg); 
-    
-    
 }
-
-
 .logo{
     color:#fff;
     font-size: 30px;
@@ -56,7 +48,6 @@ main{
     animation: top_menu 0.4s ease forwards;
     opacity: 0;
 }
-
 
 .title_container{
     float: left;
@@ -97,7 +88,6 @@ main{
     margin: 50px 14px 0px 14px;
     transition: all 0.2s;
     transform: scale(1);
-    
 }
 
 .title_container input:hover{
@@ -248,38 +238,269 @@ main{
     width: 100%;
     height: 523px;
     background: url(../images/icons/fon2.jpg); 
-background-position: top;
-}
-
-.skill h1{
-    margin: 105px;
-     
-}
-
-.skill div {
-    width: 100%;
-    float:left;
-    margin: 250px 493px 230px 493px;
+    background-position: top;
+    center/cover no-repeat;
     
 }
 
-.kayses{
+.my_skill{
+    width: 1094px;
+    margin: 0 auto;
+    padding-top: 110px;
+    padding-bottom: 96px;
+}
+
+.my_skill h1{
+    text-align: center;
+    width: 250px;
+    font-size: 33px;
+    font-weight: bold;
+    margin: 0px auto 30px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.my_skill hr{
+    height: 4px;
+    border: none;
+    background: #d17700;
+    width: 80px;
+    margin: 0 auto 100px;
+}
+    
+
+.skills{
+    float: left;
+    width: 200px;
+    text-align: center;
+    margin: 0 36px;
+}
+
+.skills img{
+    
+    margin-bottom: 40px;
+    height: 40px;
+}
+
+.skills h4{
+    font-size: 18px;
+    color: #e68505;
+    margin-bottom: 20px;
+}
+
+skills p{
+    font-size: 16px;
+}
+
+.clear{
+    clear:both;
+}
+
+
+.portfolio_kayses{
     width: 100%;
     background: url(../images/icons/sloy.jpg); 
     height: 250px;
-    background: url(../images/icons/example.png);
     height: 592px;
 }
+.portfolio{
+    padding-top: 110px;
+    padding-bottom: 128px;
+}
 
-.client
-{
-    background: url(../images/icons/fon3.jpg); 
-    height: 500px;
+.portfolio_container{
+    width: 1170px;
+    margin: 0 auto;
+    
+}
+.portfolio_container h2{
+    text-align: center;
+    width: 214px;
+    font-size: 33px;
+    margin: 0px auto 30px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
     
 }
 
-.client h1{
+.portfolio_container hr{
+    height: 4px;
+    border: none;
+    background: #d17700;
+    width: 80px;
+    margin: 0 auto 40px;
+}
 
+.portfolio__kayses{
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.portfolio_container img{
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.description_left{
+    width: 200px;
+    float: left;
+    margin-right: 82px;
+}
+.description_left h3{
+    font-size: 25px;
+    
+}
+
+.description_left p{
+    font-size: 17px;
+    margin: 16px 0;
+}
+
+.description_left a{
+    margin-top: 25px;
+    display: block;
+    width: 100%;
+    background: #63b5ae;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    border-radius: 8px;
+    
+}
+.description_right h4{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.description_right p{
+    font-size: 20px;
+
+}
+
+.calculator{
+    padding-bottom: 84px;
+}
+.calculator_container{
+    width: 1080px;
+    -webkit-box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
+    margin: 0 auto;
+    padding-top: 74px;
+}
+
+.calculator_container h2{
+     text-align: center;
+    width: 358px;
+    font-size: 43px;
+    margin: 0px auto 50px;
+    
+}
+.calculator_inner{
+    width: 890px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.calculator_inner h3{
+    font-size: 29px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+.calculator_inner select{
+    margin-bottom: 44px;
+}
+
+.calculator_inner hr{
+    height: 2px;
+    border: none;
+    background: #eee;
+    width: 100%;
+    margin: 0 auto 24px;
+}
+
+.mySelect{
+    display: block;
+    width: 890px;
+    height: 54px;
+    background: #eeeeee;
+    padding-left: 24px;
+    font-size: 16px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background:  url(../images/icons/select.png) 98% 54%/auto no-repeat, #eee;
+}
+
+.days, .price{
+    margin-bottom: 18px;
+    font-size: 21px;
+    
+}
+
+.calculator_footer .text{
+    float: left;
+}
+
+.calculator_footer .digit{
+    font-size: 29px;
+    float: right;
+}
+
+.statistic{
+    background: url(../images/icons/fon3.jpg) center/cover no-repeat;
+}
+
+
+.statistic_container{
+    width: 1024px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+.statistic_container h2{
+      text-align: center;
+    width: 390px;
+    font-size: 33px;
+    margin: 0px auto 30px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    padding-top: 100px;
+}
+
+.statistic_container hr{
+    height: 4px;
+    border: none;
+    background: #d17700;
+    width: 80px;
+    margin: 0 auto 90px;
+}
+
+
+.statistic_item{
+    display: inline-block;
+    width: 213px;
+    text-align: center;
+}
+.statistic_item img{
+    height: 54px;
+}
+.statistic_item h3{
+    font-size: 37px;
+    font-weight: 800;
+    margin: 34px 0;
+}
+
+.statistic_item p{
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.margin-right{
+    margin-right: 53px;
 }
 
 .review{
@@ -323,12 +544,121 @@ background-position: top;
    
 }
 
-.contact
-{
-    width: 100%;
-    background: url(../images/icons/fon5.jpg); 
-    height: 808px;
+.contacts{
+    background: url(../images/icons/fon5.jpg) center/cover no-repeat;
+    color: white;
 }
+
+.contacts_container{
+    width: 734px;
+    margin: 0 auto;
+    padding-bottom: 68px;
+}
+
+.contacts_container h2{
+    text-align: center;
+    width: 390px;
+    font-size: 33px;
+    margin: 0px auto 30px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    padding-top: 100px;
+}
+
+.contacts_container hr{
+    height: 4px;
+    border: none;
+    background: #d17700;
+    width: 80px;
+    margin: 0 auto 32px;
+}
+
+.contacts_subscription{
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 48px;
+}
+
+.contacts_data_item{
+    float: left;
+    width: 154px;
+    text-align: center;
+    margin: 0 45px;
+}
+
+.contacts_data_item img{
+    height: 24px;
+    margin-bottom: 16px;
+    
+}
+
+.contacts_data_item p{
+    font-size: 16px;
+}
+
+.contacts_container h3{
+    margin-top: 40px;
+    text-align: center;
+    margin-bottom: 46px;
+    font-size: 21px;
+    text-transform: uppercase;
+}
+
+.contacts_inputs input{
+    display: block;
+    width: 352px;
+    float: left;
+    height: 34px;
+    padding-left: 14px;
+    margin-bottom: 14px;
+    background: rgba(210, 214, 220, 0.93);
+    font-size: 16px;
+}
+
+.contacts_inputs .secondInput{
+    float: right;
+}
+
+.contacts_container textarea{
+    display: block;
+    width: 100%;
+    resize: none;
+    padding-top: 10px;
+    padding-left: 15px;
+    background: rgba(220, 224, 230, 0.93);
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.contacts_container input[type="submit"]{
+    display: block;
+    margin: 0 auto;
+    background: none;
+    color: white;
+    border: 2px solid white;
+    height: 46px;
+    width: 124px;
+    border-radius: 8px;
+    font-size: 20px;
+    margin-bottom: 76px;
+}
+
+.contacts_social{
+    width: 422px;
+    margin: 0 auto;
+    
+}
+
+.contacts_social a{
+    display: block;
+    float: left;
+    margin: 0 20px;
+}
+.contacts_social img{
+    height: 30px;
+}
+
+
     
 .mapa{
     width: 100%;
@@ -347,97 +677,6 @@ background-position: top;
     float:left;
     
 }
-
-.sk-folding-cube {
-  margin: 20px auto;
-  width: 40px;
-  height: 40px;
-  position: relative;
-  -webkit-transform: rotateZ(45deg);
-          transform: rotateZ(45deg);
-}
-
-.sk-folding-cube .sk-cube {
-  float: left;
-  width: 50%;
-  height: 50%;
-  position: relative;
-  -webkit-transform: scale(1.1);
-      -ms-transform: scale(1.1);
-          transform: scale(1.1); 
-}
-.sk-folding-cube .sk-cube:before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #333;
-  -webkit-animation: sk-foldCubeAngle 2.4s infinite linear both;
-          animation: sk-foldCubeAngle 2.4s infinite linear both;
-  -webkit-transform-origin: 100% 100%;
-      -ms-transform-origin: 100% 100%;
-          transform-origin: 100% 100%;
-}
-.sk-folding-cube .sk-cube2 {
-  -webkit-transform: scale(1.1) rotateZ(90deg);
-          transform: scale(1.1) rotateZ(90deg);
-}
-.sk-folding-cube .sk-cube3 {
-  -webkit-transform: scale(1.1) rotateZ(180deg);
-          transform: scale(1.1) rotateZ(180deg);
-}
-.sk-folding-cube .sk-cube4 {
-  -webkit-transform: scale(1.1) rotateZ(270deg);
-          transform: scale(1.1) rotateZ(270deg);
-}
-.sk-folding-cube .sk-cube2:before {
-  -webkit-animation-delay: 0.3s;
-          animation-delay: 0.3s;
-}
-.sk-folding-cube .sk-cube3:before {
-  -webkit-animation-delay: 0.6s;
-          animation-delay: 0.6s; 
-}
-.sk-folding-cube .sk-cube4:before {
-  -webkit-animation-delay: 0.9s;
-          animation-delay: 0.9s;
-}
-@-webkit-keyframes sk-foldCubeAngle {
-  0%, 10% {
-    -webkit-transform: perspective(140px) rotateX(-180deg);
-            transform: perspective(140px) rotateX(-180deg);
-    opacity: 0; 
-  } 25%, 75% {
-    -webkit-transform: perspective(140px) rotateX(0deg);
-            transform: perspective(140px) rotateX(0deg);
-    opacity: 1; 
-  } 90%, 100% {
-    -webkit-transform: perspective(140px) rotateY(180deg);
-            transform: perspective(140px) rotateY(180deg);
-    opacity: 0; 
-  } 
-}
-
-@keyframes sk-foldCubeAngle {
-  0%, 10% {
-    -webkit-transform: perspective(140px) rotateX(-180deg);
-            transform: perspective(140px) rotateX(-180deg);
-    opacity: 0; 
-  } 25%, 75% {
-    -webkit-transform: perspective(140px) rotateX(0deg);
-            transform: perspective(140px) rotateX(0deg);
-    opacity: 1; 
-  } 90%, 100% {
-    -webkit-transform: perspective(140px) rotateY(180deg);
-            transform: perspective(140px) rotateY(180deg);
-    opacity: 0; 
-  }
-}
-
-
-
 
 
     
